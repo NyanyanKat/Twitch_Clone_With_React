@@ -1,0 +1,33 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    overflow: hidden;
+    
+    margin-right: 20px;
+}
+
+.item__details {
+    display: flex;
+    margin-top: 25px;
+    /* white-space: nowrap; */
+}
+
+.item__details>h4 {
+    /* display: flex; */
+    white-space: nowrap;
+}
+.item__details>h5 {
+    /* display: flex; */
+    /* flex-basis: 100%; */
+    /* flex-direction: column; */
+    /* margin-top: 2px; */
+
+}
+
+.item__details>img {
+    object-fit: contain;
+    height: 60px;
+    margin-right: 10px;
+}
+
