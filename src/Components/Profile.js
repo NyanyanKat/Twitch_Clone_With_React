@@ -9,13 +9,18 @@ const Profile = () => {
         <div className="profile__topLeft">
           <img src="https://cdn.pixabay.com/photo/2019/05/08/21/21/cat-4189697_1280.jpg"></img>
           <div className="profile__topLeftDetails">
-            <h1>cleverprogrammer</h1>
-            <h1>1k followers</h1>
+            <h2>cleverprogrammer</h2>
+            <p>1k followers</p>
           </div>
         </div>
         <div className="profile__topRight">
           <i className="fas fa-heart graybg"></i>
           <i className="fas fa-bell graybg"></i>
+          {/* <span>
+            <i className="fa-solid fa-star" />
+            Manage Your Sub
+          </span> */}
+
           <i className="fas fa-ellipsis-v"></i>
         </div>
       </div>
@@ -30,7 +35,7 @@ const Profile = () => {
         <h2>Chat</h2>
       </div>
       <div className="profile__recent">
-        <h2>Recent broadcasts</h2>
+        <h3>Recent broadcasts</h3>
         <div className="profile__recentItems">
           <RecentItem
             url="https://www.youtube.com/embed/ktjafK4SgWM"
@@ -48,9 +53,9 @@ const Profile = () => {
           ></RecentItem>
         </div>
         <div className="profile__categories">
-          <h2>cleverprogrammer's recently streamed Categories</h2>
+          <h3>cleverprogrammer's recently streamed Categories</h3>
           <img src="https://static-cdn.jtvnw.net/ttv-boxart/Science%20&%20Technology-285x380.jpg" />
-          <h3>Science & Technology</h3>
+          <p>Science & Technology</p>
         </div>
       </div>
     </div>

@@ -6,6 +6,7 @@
     align-items: center;
     margin-top: 15px;
     margin-bottom: 15px;
+    /* position: sticky; */
 }
 
 
@@ -19,16 +20,22 @@
     font-weight:bold;
 }
 
+.channel__details>p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
 .channel>div>img {
     object-fit: contain;
     margin-right: 5px;
-    width: 35px;
-    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
 }
 
 .channel>p {
-
     font-weight:light;
+    font-size: 15px;
 }
 
 .channel>p>span {

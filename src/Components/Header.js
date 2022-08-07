@@ -24,7 +24,11 @@ const Header = () => {
       </div>
 
       <div className="header__center">
-        <input type="text" placeholder="Search" />
+        <input
+          type="text"
+          placeholder="Search"
+          pattern="^[a-zA-Z0-9_]{1,25}$"
+        />
         <div className="header__centerLogoContainer">
           <i class="fas fa-search"></i>
         </div>
@@ -41,7 +45,7 @@ const Header = () => {
             <h4>Get Bits</h4>
           </div>
 
-          <Avatar className="avatar"/>
+          <Avatar className="avatar" />
         </div>
       </div>
     </div>

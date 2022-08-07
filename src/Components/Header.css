@@ -3,7 +3,7 @@
 .header {
     font-size: 10.5px;
     height:3.2rem;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     display:flex;
     align-items: center;
     background-color: #18181b;
@@ -151,4 +151,24 @@
 ::placeholder {
     color: whitesmoke;
     opacity: 1;
+}
+
+
+
+input:not(:placeholder-shown):not(:focus):invalid {
+    /* border: 2px solid red; */
+    color : red;
+    animation: shake 300ms;
+}
+
+@keyframes shake {
+    25% {
+        transform: translateX(8px);
+    }
+    50% {
+        transform: translateX(-8px);
+    }
+    75% {
+        transform: translateX(8px);
+    }
 }
