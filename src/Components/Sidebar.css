@@ -17,6 +17,7 @@
 
 .sidebar__top {
     flex: 1;
+    /* position: sticky; */
 }
 
 .sidebar__top>h5 {
