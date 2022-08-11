@@ -14,7 +14,7 @@ This application includes the major features of Twitch.tv such as
 
 - [React / create-react-app](https://github.com/facebook/create-react-app)
 - [FontAwesome](https://github.com/FortAwesome/Font-Awesome)
-- CSS Flexbox
+- CSS Flexboxx
 
 # 4 Completed Tasks
 
