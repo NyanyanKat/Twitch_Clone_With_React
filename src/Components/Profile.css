@@ -114,7 +114,8 @@
 }
 
 .profile__categories>img {
-    height: 275px;
+    height: 250px;
+    /* transform: scale(0.8); */
 }
 
 .profile__categories>p {
